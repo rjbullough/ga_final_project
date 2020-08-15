@@ -371,7 +371,7 @@ button:hover {
     align-self: center;
 }
 aside>h3 {
-    padding: 3em 3em 0 3em;
+    padding: 3em;
     font-size: 1.2rem;
     font-style: italic;
 }
@@ -389,6 +389,20 @@ aside>h2, article>h2 {
     height: 110vh;
     justify-content: space-between;
     flex-direction: column;
+}
+@media only screen and (max-width: 850px) {
+    .contact-mid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-upper>article>h1 {
+        font-size: 2rem;
+        padding: 1.1em;
+    }
+    aside>h2, article>h2 {
+        font-size: 2rem;
+        padding: 1em;
+    }
 }
 /* -------------------------------------------------------------------- */
 /* ALL STOCK PAGE STYLING */
