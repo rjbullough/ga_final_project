@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:SSS:. - Contact</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body onload="navSlide()">
+    <nav class="header_nav_bar">
+        <div class="logo">
+            <h1><a href="index.html">.:SuperSpeedShop:.</a></h1>
+        </div>
+        <ul class="header_nav_list">
+            <li><a href="stock.html" class="header_nav_links">Stock</a></li>
+            <li><a href="contact.html" class="header_nav_links">Contact</a></li>
+            <li><a href="about.html" class="header_nav_links">About</a></li>                                   
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <main id="contact_main">
+        <div id="map"></div>
+        <div id="business-details">
+            <h3 class="contact_title">Our Location</h3>
+            <p>You can find SSS at the foot of Mount Murray just outside of Wollongong</p>
+            <p>123 Gofast Road&nbsp;&nbsp;NSW&nbsp;&nbsp;2500&nbsp;&nbsp;Australia</p>
+            <p>Telephone: +61 (0)2 1234 5678</p>
+            <p>Facsimile +61 (0)2 1234 5555</p>
+            <h3 class="contact_title">Opening Hours</h3>
+            <p>Monday to Friday 8:00am - 5:00pm</p>
+            <p>Viewing also by appointment</p><br>
+        </div>
+        <h2 class="contact_title">Have a question?</h2>
+        <h4 class="contact_title">Contact us on +61(0)2 1234 5678 or via the form below</h4>
+        <div id="contact_form">
+            <form id="form_message" action="">
+                <textarea name="userMessage" id="formUserMessage" cols="30" rows="30" placeholder="Message"></textarea>
+            </form>
+            <form id="form_inputs" action="">
+                <input type="text" name="firstName" id="formUserName" placeholder="First Name">
+                <input type="text" name="surname" id="formUserSurname" placeholder="Last Name">
+                <input type="text" name="userContact" id="formUserContact" placeholder="Mobile number or email">               
+            </form>   
+            <form id="form_submit" action="">
+                <button type="submit" name="submit" id="formButtonSubmit">Submit</button>
+            </form>
+        </div>
+        <footer class="footer-wrapper">
+            <h2>.:SSS:.</h2>
+                <div id="social-wrapper">
+                    <a href="https://www.instagram.com" class="social-link"><img src="Assets/002-instagram.svg" alt="Instagram" class="social-image img-dark"></a>
+                    <a href="https://www.facebook.com" class="social-link"><img src="Assets/003-facebook.svg" alt="Facebook" class="social-image img-dark"></a>
+                    <a href="https://www.twitter.com" class="social-link"><img src="Assets/001-twitter.svg" alt="Twitter" class="social-image img-dark"></a>
+                </div>
+            </div>
+            <p>&copy; Copyright SuperSpeedShop 2020</p>
+        </footer>
+    </main>    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOUXgiarHtupWEACQsIr1i57z6RZf9N1E&callback=initMap"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
+</body>
+</html>
